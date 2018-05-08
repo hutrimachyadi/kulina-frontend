@@ -5,8 +5,51 @@
     }
 }
 
-body {
-  font-family: Roboto;
+. {
+  font-family: "Roboto";
+}
+
+.bg {
+  background-image: url("images/background.jpg");
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tombol img{
+  background-size: 20px;
+  bottom: 200px;
+}
+
+.judul {
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.col-sm-4 {
+  top: 70%;
+}
+
+.col-sm-4 h2 strong {
+  color: #3B3F41;
+}
+
+.col-sm-8 p {
+  color: #AFB3B7;
+}
+
+.body p {
+  color: #AFB3B7;
+}
+
+.container2 {
+
 }
 
 .dlg {
@@ -14,10 +57,11 @@ body {
   border-radius: 5px;
   border-width: thin;
   border-color: transparent;
-  box-shadow: 0px 0px 10px lightgrey;
+  box-shadow: 0px 0px 20px lightgrey;
   background-color: white;
   padding: 20px 30px;
-  margin: 35px;
+  margin: 15px;
+  z-index: 1;
 }
 
 .btn {
@@ -37,11 +81,9 @@ body {
 }
 
 .bg {
-width: 100%
 margin-left: auto;
 margin-right: auto;
 text-align: center;
-display: table-cell;
 vertical-align: middle
 }
 
@@ -58,11 +100,12 @@ nav {
     padding: 30px 100px;
     box-sizing: border-box;
     transition: .5s ;
+    z-index: 2;
 }
 
 nav .logo{
-    padding: 10px 20px;
-    height: 80px;
+    padding: 10px 10px;
+    height: 50px;
     float: left;
     font-size: 24px;
     transition: .3s;
@@ -99,4 +142,27 @@ nav.black ul li a {
 
 nav ul li a:hover {
     color: white;
+}
+
+.bg p {
+  display: block;
+  top: 30%;
+}
+
+.col-sm-5 img {
+  height: 20px;
+  width: 20px;
+}
+
+.col-sm-5 {
+  color: #AFB3B7;
+}
+
+.col-sm-3 img {
+  height: 20px;
+  width: 20px;
+}
+
+.col-sm-3 {
+  color: #AFB3B7;
 }
